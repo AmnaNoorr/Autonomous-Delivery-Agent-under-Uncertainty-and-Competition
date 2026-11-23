@@ -1,14 +1,4 @@
-# CS-370 Artificial Intelligence — Open Ended Lab (OEL)
-## Autonomous Delivery Agent under Uncertainty and Competition
-
-**Group Members:**
-- **Amna Noor** — CMS ID: `486679`
-- **Fatima Aleem** — CMS ID: `460798`
-- **Laraib Zahra** — CMS ID: `486986`
-
-**Course:** CS-370 Artificial Intelligence (Fall 2026)  
-**Instructor Instance Seed:** `9f972848` (Derived deterministically from CMS IDs)
-
+# Autonomous Delivery Agent under Uncertainty and Competition
 ---
 
 ## 1. Project Overview
@@ -90,6 +80,8 @@ python run_all.py
 This runs Parts A through E and saves stamped CSVs and high-resolution plots to `./outputs/`.
 
 ### B. Interactive Streamlit Dashboard
+<img width="917" height="407" alt="image" src="https://github.com/user-attachments/assets/4b53122c-b2d3-4c1e-8d0b-d5b19dd80e17" />
+
 To launch the graphical command center:
 ```bash
 streamlit run app.py
@@ -109,12 +101,8 @@ streamlit run app.py
 3. **Part C (Adversarial Pruning):** Alpha-Beta with move ordering saved **$87.05\%$ of search nodes** at depth 6 compared to standard Minimax ($141$ vs $1,089$ nodes).
 4. **Part D (LLM Guardrails):** The `ArgumentValidator` successfully intercepted 100% of out-of-bound requests and hallucinated arguments, safely recovering with valid executions.
 5. **Part E (Statistical Ablations):** Evaluated over 30 reachable scenarios with $95\%$ confidence intervals, confirming optimal pathing and efficiency gains.
+   
+<img width="482" height="261" alt="Screenshot 2026-11-23 210746" src="https://github.com/user-attachments/assets/8f96a763-fd7a-4fc1-bddb-cca3d784f0ff" />    
 
----
+<img width="341" height="207" alt="Screenshot 2026-11-23 205811" src="https://github.com/user-attachments/assets/75bddd09-f7c6-4293-9687-b0206484040f" />
 
-## 6. Viva Live Modification Guide
-
-During the examination, the instructor may alter instance parameters in [config.py](file:///e:/MCS/Semester%207/Artificial%20Intelligence/Lab/oel/config.py) or live in [app.py](file:///e:/MCS/Semester%207/Artificial%20Intelligence/Lab/oel/app.py):
-- **Slip Probability:** Adjust slider in the UI from $0.15$ up to $0.50$ to inspect stochastic replanning degradation.
-- **Rival Search Depth:** Adjust slider from $3$ to $6$ to observe deeper adversarial lookahead.
-- **Stop Location / Twist Toggle:** Modify target coordinates or disable twists in `run_all.py` / `part_b_search.py` to observe instant adaptation within 5 minutes.
