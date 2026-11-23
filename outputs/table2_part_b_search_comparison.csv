@@ -1,0 +1,10 @@
+# Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986)
+Members,Algorithm,Found,Solution_Cost,Nodes_Expanded,Runtime_ms,Peak_Memory_KB
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),BFS,False,INF,60000,4808.628,30696.08
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),UCS,False,INF,80000,9681.112,52433.51
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),Greedy (Custom h),False,INF,50000,4439.068,16995.3
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Custom Admissible MST+Tunnel),False,INF,80000,21232.737,53251.14
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Ablation: Nearest-Stop Only),False,INF,80000,12024.956,53238.46
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Baseline: Farthest-Stop),False,INF,80000,12231.475,53152.0
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Inadmissible 3.5x Fast),False,INF,80000,17142.381,55278.27
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),IDS (Memory-Limited 15k states),False,INF,25000,536.526,0.0

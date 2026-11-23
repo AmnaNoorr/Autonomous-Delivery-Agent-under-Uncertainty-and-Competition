@@ -1,0 +1,7 @@
+# Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986)
+Members,Configuration,Solved_Scenarios,Cost_Mean_95CI,Expanded_Mean_95CI,Runtime_ms_Mean_95CI
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Full 3-Twist Custom Heuristic),0/30,0.00 ± 0.00,0.0 ± 0.0,0.00 ± 0.00
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Ablated: Fragile Mud Disabled),1/30,206.00 ± 0.00,64031.0 ± 0.0,12814.77 ± 0.00
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Ablated: No MST Term),0/30,0.00 ± 0.00,0.0 ± 0.0,0.00 ± 0.00
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),A* (Ablated: Tunnels Disabled),0/30,0.00 ± 0.00,0.0 ± 0.0,0.00 ± 0.00
+Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986),UCS (Uninformed Optimal),0/30,0.00 ± 0.00,0.0 ± 0.0,0.00 ± 0.00

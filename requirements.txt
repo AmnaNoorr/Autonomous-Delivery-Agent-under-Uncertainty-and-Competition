@@ -1,0 +1,12 @@
+# CS-370 Artificial Intelligence - Open Ended Lab (OEL)
+# Group: Amna Noor (486679) | Fatima Aleem (460798) | Laraib Zahra (486986)
+
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+streamlit>=1.30.0
+
+# Optional: for live LLM dispatcher execution (fallback parser works deterministically offline)
+langchain>=0.1.0
+langchain-openai>=0.0.5
