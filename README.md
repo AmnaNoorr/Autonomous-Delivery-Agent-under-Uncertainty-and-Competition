@@ -33,7 +33,6 @@ This repository contains the complete implementation of an autonomous delivery a
 ├── run_all.py                 # Master one-command script reproducing all tables and figures
 ├── app.py                     # Streamlit interactive command-center dashboard
 ├── requirements.txt           # Project dependencies
-├── REPORT_IEEE.md             # Complete 8–10 page IEEE report draft with table values and analysis
 ├── outputs/                   # Generated evaluation artifacts
 │   ├── table1_part_a_benchmark.csv
 │   ├── table2_part_b_search_comparison.csv
